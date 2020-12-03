@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+ALLOWED_HOSTS	superlists/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	superlists/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+BASE_DIR	superlists/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+DATABASES	superlists/settings.py	/^DATABASES = {$/;"	v
+DEBUG	superlists/settings.py	/^DEBUG = True$/;"	v
+HomePageTest	lists/tests.py	/^class HomePageTest(TestCase):$/;"	c
+INSTALLED_APPS	superlists/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	superlists/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+ListsConfig	lists/apps.py	/^class ListsConfig(AppConfig):$/;"	c
+MIDDLEWARE	superlists/settings.py	/^MIDDLEWARE = [$/;"	v
+NewVisitorTest	functional_test.py	/^class NewVisitorTest(unittest.TestCase):$/;"	c
+ROOT_URLCONF	superlists/settings.py	/^ROOT_URLCONF = 'superlists.urls'$/;"	v
+SECRET_KEY	superlists/settings.py	/^SECRET_KEY = '@q-1dm*2tx%1hf$aruurgt$@)bwpu&3e-j!o$+9c6cv$0r&nv_'$/;"	v
+STATIC_URL	superlists/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	superlists/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	superlists/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	superlists/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	superlists/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	superlists/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	superlists/settings.py	/^WSGI_APPLICATION = 'superlists.wsgi.application'$/;"	v
+Your To-Do list	lists/templates/home.html	/^		<h1>Your To-Do list<\/h1>$/;"	h
+application	superlists/wsgi.py	/^application = get_wsgi_application()$/;"	v
+home_page	lists/views.py	/^def home_page(request):$/;"	f
+id_list_table	lists/templates/home.html	/^		<table id='id_list_table'>$/;"	I
+id_new_item	lists/templates/home.html	/^		<input name='item_text' id="id_new_item" placeholder="Enter a to-do item" \/>$/;"	I
+name	lists/apps.py	/^    name = 'lists'$/;"	v	class:ListsConfig
+setUp	functional_test.py	/^    def setUp(self):$/;"	m	class:NewVisitorTest
+tearDown	functional_test.py	/^    def tearDown(self):$/;"	m	class:NewVisitorTest
+test_can_start_a_list_and_retrive_it_later	functional_test.py	/^    def test_can_start_a_list_and_retrive_it_later(self):$/;"	m	class:NewVisitorTest
+test_home_page_return_correct_html	lists/tests.py	/^    def test_home_page_return_correct_html(self):$/;"	m	class:HomePageTest
+urlpatterns	superlists/urls.py	/^urlpatterns = [$/;"	v
