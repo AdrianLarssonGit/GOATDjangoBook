@@ -72,7 +72,7 @@ class NewVisitorTest(LiveServerTestCase):
 
         #She notices her list has a unique URL
         edit_list_url = self.browser.current_url
-        self.assertRegex(edit_list_url, '/list/.+')
+        self.assertRegex(edit_list_url, '/lists/.+')
 
         #Now a new user Francis
         self.browser.quit()
@@ -80,7 +80,7 @@ class NewVisitorTest(LiveServerTestCase):
 
         #Francis see now sign of Ediths list
         self.browser.get(self.live_server_url)
-        page_text = self.browser.find_elements_by_tag_name('body').text
+        page_text = self.browser.find_elements_by_tag_name('body')[0].text
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertNotIn('make a fly', page_text)
 
@@ -92,7 +92,7 @@ class NewVisitorTest(LiveServerTestCase):
 
         #Francis get his own uniqe URL
         francis_list_url = self.browser.current_url
-        self.assertRegex(francis_list_url, '/list/.+')
+        self.assertRegex(francis_list_url, '/lists/.+')
         self.assertNotEqual(francis_list_url, edit_list_url)
 
         #Again no trace of Edith list
